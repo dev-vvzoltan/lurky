@@ -1,0 +1,27 @@
+{
+  "name": "lurky",
+  "version": "1.0.0",
+  "description": "A small CLI for downloading App Store reviews, built for my own research",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-vvzoltan/lurky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dev-vvzoltan/lurky/issues"
+  },
+  "homepage": "https://github.com/dev-vvzoltan/lurky#readme",
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^7.0.2"
+  }
+}
